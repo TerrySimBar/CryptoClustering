@@ -5,17 +5,15 @@ An unsupervised machine learning project that uses Python (Pandas, Scikit-learn 
 <br>
 <br>
 
-<img src="/images/comp_elb.png" alt="Composite Elbow Curve" width="800"/>
-<br>
-<br>
-<br>
-<br>
-<img src="/images/comp_scat.png" alt="Composite Scatter Plot" width="800"/>
-<br>
+<img src="/images/comp_elbow.png" alt="Composite Elbow Curve" width="800"/>
 <br>
 <br>
 <br>
 
+<img src="/images/comp_clust.png" alt="Composite Cluster Scatter Plot" width="800"/>
+<br>
+<br>
+<br>
 
 ## Table of Contents
 ### Introduction
@@ -115,9 +113,9 @@ The following steps are used to optimize the clusters with Principal Component A
 
 #### Compare the Elbow curves and clustering results
 
-1. **Create a composite line graph:** Use `hvplot.line` with the `*` operator to create a composite line graph of the elbow curves for the original data and the PCA data. 
+1. **Create a composite line graph:** Use `hvplot.line` with the `+` operator to create a composite line graph of the elbow curves for the original data and the PCA data. 
 
-2. **Create a composite scatter plot:** Use `hvplot.scatter` with the `*` operator to create a composite scatter plot of the clustering results for the original data and the PCA data.   
+2. **Create a composite scatter plot:** Use `hvplot.scatter` with the `+` operator to create a composite scatter plot of the clustering results for the original data and the PCA data.   
 
 3. **Compare the two composite graphs:** Compare the two composite graphs to determine if reducing the dimensions with PCA reduced the quality of the clusters. 
 
