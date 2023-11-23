@@ -42,9 +42,13 @@ This project primarily seeks to predict if cryptocurrencies are affected by 24-h
 This project uses the following software and Python libraries:    
 
 Python (version 3.10.9)
+
 Pandas (version: 2.0.3)
+
 Sci-Kit Learn (version: 1.3.0)
+
 hvPlot (version: 0.8.4)
+
 <br>
 
 ### Project Structure
